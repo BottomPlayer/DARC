@@ -29,7 +29,7 @@ const config = {
     // to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'en',
-        locales: ['en'],
+        locales: ['en','zh-Hans','ja'],
     },
 
     presets: [
@@ -105,6 +105,10 @@ const config = {
                         ],
                     },
 
+                    {
+                        type:'localeDropdown',
+                        position:'right',
+                    },
                     {
                         href: 'https://github.com/project-darc/darc',
                         label: 'GitHub',
